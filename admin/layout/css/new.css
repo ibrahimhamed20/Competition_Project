@@ -1,0 +1,476 @@
+/* Start Main Rulez */
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+
+* {
+     /*font-family: 'JF Flat Regular', sans-serif;*/
+     font-family: 'El Messiri', sans-serif;
+}
+
+body {
+     /*background-color: #F4F4F4;*/
+     font-size: 16px;
+     /*font-family: 'JF Flat Regular', sans-serif;*/
+     /* font-family: 'Ubuntu', sans-serif; */
+     font-family: 'El Messiri', sans-serif;
+}
+
+.asterisk {
+     font-size: 30px;
+     position: absolute;
+     right: 30px;
+     top: 8px;
+     color: #D20707;
+     display: none;
+}
+
+.nice-message {
+     padding: 10px;
+     background-color: #FFF;
+     margin: 10px 0;
+     border-left: 5px solid #080;
+}
+
+/* End Main Rulez */
+
+/* Start Login Form 
+.login {
+    width: 500px;
+    margin: 150px auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 20px 80px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.login h4 {
+    color: #3489db;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 24px 
+}
+
+.login h4 b{
+    color: #000;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color: #EAEAEA;
+}
+
+.login .btn {
+    background-color: #008dde;
+}*/
+
+/* End Login Form */
+
+/* Start Bootstrap Edits */
+
+.navbar {
+     border-radius: 0;
+     margin-bottom: 0;
+     background-color: #FFF;
+     padding: 5px 0;
+     border: none;
+     font-weight: bold;
+     letter-spacing: 1px;
+     border-top: 4px solid #3489db;
+     margin-bottom: 0;
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:active,
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-header a:hover,
+.navbar-header a:active,
+.navbar-header a:focus {
+     color: white !important;
+     background-color: #3489db !important;
+     transition: all .5s ease-in-out;
+}
+
+.nav>li>a,
+.navbar-brand {
+     padding: 15px 12px;
+     color: #3489db !important;
+}
+
+.navbar-brand {
+     font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu {
+     background-color: #3498db;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+     background: #333;
+     border-top: 3px solid #3498db;
+     min-width: 200px;
+
+}
+
+.dropdown-menu {
+     left: 0;
+     right: auto;
+}
+
+.dropdown-menu>li>a {
+     color: #fff;
+     padding: 6px 20px;
+     -webkit-transition: padding 0.5s ease;
+     -moz-transition: padding 0.5s ease;
+     -o-transition: padding 0.5s ease;
+     transition: padding 0.5s ease;
+}
+
+@media (max-width: 767px) {
+     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+          color: #3489db;
+     }
+}
+
+.navbar-inverse .navbar-toggle {
+     background-color: #3489db !important;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+     background: #3498db;
+     color: #fff;
+     padding-left: 30px;
+}
+
+.dropdown-menu .divider {
+     background-color: #3498db;
+}
+
+.form-control {
+     position: relative;
+     text-align: right;
+}
+
+/* End Bootstrap Edits */
+
+/* Start Dashboard Page */
+
+.home-stats .stat {
+     padding: 20px;
+     font-size: 15px;
+     color: #FFF;
+     margin-bottom: 10px;
+     border-radius: 10px;
+     position: relative;
+     overflow: hidden;
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.22);
+}
+
+.home-stats .stat i {
+     position: absolute;
+     font-size: 80px;
+     top: 35px;
+     left: 30px;
+}
+
+.home-stats .stat .info {
+     float: right;
+     font-weight: bold;
+     letter-spacing: 1px;
+}
+
+.home-stats .stat a {
+     color: #FFF;
+}
+
+.home-stats .stat a:hover {
+     text-decoration: none;
+}
+
+.home-stats .stat span {
+     display: block;
+     font-size: 60px;
+}
+
+.home-stats .st-members {
+     background-color: #3489db;
+}
+
+.home-stats .st-pending {
+     background-color: #c0392b;
+}
+
+.home-stats .st-items {
+     background-color: green;
+}
+
+.home-stats .st-comments {
+     background-color: orange;
+}
+
+.latest {
+     margin-top: 30px;
+}
+
+.latest .toggle-info {
+     color: #999;
+     cursor: pointer
+}
+
+.latest .toggle-info:hover {
+     color: #444;
+}
+
+.latest-users {
+     margin-bottom: 0;
+}
+
+.latest-users li {
+     padding: 10px;
+     overflow: hidden;
+}
+
+.latest-users li:nth-child(odd) {
+     background-color: #EEE;
+}
+
+.latest-users .btn-success,
+.latest-users .btn-info {
+     padding: 2px 8px;
+}
+
+.latest-users .btn-info {
+     margin-right: 5px;
+}
+
+.latest .comment-box {
+     margin: 5px 0 10px;
+}
+
+.latest .comment-box .member-n,
+.latest .comment-box .member-c {
+     float: left;
+}
+
+.latest .comment-box .member-n {
+     width: 80px;
+     text-align: center;
+     margin-right: 20px;
+     position: relative;
+     top: 10px;
+}
+
+.latest .comment-box .member-c {
+     width: calc(100% - 100px);
+     background-color: #EFEFEF;
+     padding: 10px;
+     position: relative;
+}
+
+.latest .comment-box .member-c:before {
+     content: "";
+     display: block;
+     position: absolute;
+     left: -28px;
+     top: 5px;
+     width: 0;
+     height: 0;
+     border-style: solid;
+     border-color: transparent #EFEFEF transparent transparent;
+     border-width: 15px;
+}
+
+/* End Dashboard Page */
+.panel-default {
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* Start Members Page */
+
+h1 {
+     font-size: 55px;
+     margin: 40px 0;
+     font-weight: bold;
+     color: #222174;
+}
+
+.show-pass {
+     position: absolute;
+     top: 6px;
+     right: -30px;
+}
+
+.table {
+     -webkit-box-shadow: 0 3px 10px #CCC;
+     -moz-box-shadow: 0 3px 10px #CCC;
+     box-shadow: 0 3px 10px #CCC;
+}
+
+.table th {
+     text-align: center;
+}
+
+.table td {
+     vertical-align: middle !important;
+}
+
+.table .btn {
+     padding: 3px 10px;
+}
+
+.activate {
+     margin-left: 5px;
+}
+
+.mb-2 {
+     margin-bottom: 5px !important;
+}
+
+.mt-2 {
+     margin-top: 5px !important;
+}
+
+.ml-2 {
+     margin-left: 5px !important;
+}
+
+.mr-2 {
+     margin-right: 5px !important;
+}
+
+/* End Members Page */
+
+/* Start Category Page 
+
+.categories .panel-heading {
+    color: #959595;
+    font-weight: bold;
+}
+
+.categories .panel-heading i {
+    position: relative;
+    top: 1px;
+}
+
+.categories .panel-body {
+    padding: 0;
+}
+
+.categories .option a {
+    color: #888;
+    text-decoration: none;
+}
+
+.categories .option span {
+    color: #888;
+    cursor: pointer;
+}
+
+.categories .option .active {
+    color: #F00
+}
+
+.categories hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.categories .cat {
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.categories .cat:hover {
+    background-color: #EEE;
+}
+
+.categories .cat:hover .hidden-buttons {
+    right: 10px;
+}
+
+.categories .cat .hidden-buttons {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 15px;
+    right: -120px;
+}
+
+.categories .cat .hidden-buttons a {
+    margin-right: 5px;
+}
+
+.categories .cat h3 {
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #6A6A6A;
+}
+
+.categories .cat .full-view p {
+    margin: 10px 0;
+    color: #707070;
+}
+
+.categories .cat:last-of-type ~ hr {
+    display: none;
+}
+
+.categories .cat .cat-span {
+    color: #FFF;
+    padding: 4px 6px;
+    margin-right: 6px;
+    border-radius: 6px
+}
+
+.categories .cat .visibility {
+    background-color: #d35400
+}
+
+.categories .cat .commenting {
+    background-color: #2c3e50
+}
+
+.categories .cat .advertises {
+    background-color: #c0392b
+}
+
+.categories .add-category {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.categories .child-head {
+    margin: 15px 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #22ab79;
+}
+
+.categories .child-cats {
+    margin: 0;
+}
+
+.categories .child-cats li {
+    margin-left: 15px;
+}
+
+.categories .child-cats li:before {
+    content: "- ";
+}
+
+.categories .show-delete {
+    color: #F00;
+    display: none;
+}
+*/
+/* End Category Page */
